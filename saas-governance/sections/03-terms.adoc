@@ -1,0 +1,49 @@
+
+[[terms]]
+== Terms, definitions and abbreviations
+
+=== Terms and definitions
+
+For the purposes of this document, the following terms and definitions apply.
+
+[[terms-saas]]
+=== SaaS
+[alt]#Software-as-a-service#
+
+cloud service model where a software service is being offered via cloud
+where its customers are only given access to the logical service
+
+// [ISO or NIST ref]
+
+[[terms-saas-provider]]
+=== SaaS provider
+
+cloud service provider that provides a SaaS (<<terms-saas>>) service
+
+[[terms-saas-customer]]
+=== SaaS customer
+
+An entity that utilizes a SaaS service (<<terms-saas-service>>).
+
+[[terms-saas-service]]
+=== SaaS service
+
+A CSP service that is offered under the SaaS (<<terms-saas>>) model.
+
+//[Such as a micro-service, e.g., help chat bot]
+
+[[terms-saas-service-component]]
+=== SaaS service component
+
+component of a SaaS service (<<terms-saas-service>>) that itself can be
+considered a service under a narrower scope.
+
+
+
+=== Abbreviations
+
+For the purposes of this document, the following abbreviations apply.
+
+CSP:: Cloud Service Provider
+
+MBTF:: Mean Time Before Failure

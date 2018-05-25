@@ -1,0 +1,13 @@
+
+[[bc]]
+== Information security aspects of business continuity
+
+=== Information security continuity
+
+==== Planning information security continuity
+==== Implementing information security continuity
+==== Verify, review, and evaluate information security continuity
+
+=== Redundancies
+
+==== Availability of information processing facilities

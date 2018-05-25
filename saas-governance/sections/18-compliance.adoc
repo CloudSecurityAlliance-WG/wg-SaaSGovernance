@@ -1,0 +1,20 @@
+
+[[compliance]]
+== Compliance
+
+=== Compliance with legal and contractual requirements
+
+==== Identification of applicable legislation and contractual requirements
+
+==== Intellectual property rights
+==== Protection of records
+==== Privacy and protection of personally identifiable information
+==== Regulation of cryptographic controls
+
+
+=== Information security reviews
+
+==== Independent review of information security
+==== Compliance with security policies and standards
+==== Technical compliance review
+

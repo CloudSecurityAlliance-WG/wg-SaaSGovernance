@@ -1,0 +1,6 @@
+
+[[annex-a]]
+[appendix,obligation=normative]
+== Security controls
+
+TODO: Here goes the controls.

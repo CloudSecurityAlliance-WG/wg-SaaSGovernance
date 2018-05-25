@@ -1,0 +1,18 @@
+
+[[cryptography]]
+== Cryptography
+
+=== Cryptographic controls
+
+==== Policy on the use of cryptographic controls
+
+A policy should be setup based on what cryptographic controls a SaaS service should support for eligibility.
+
+If a SaaS service does not support the designated cryptographic control, what are the mitigation measures.
+
+* What data needs to be verified in terms of integrity (hashing) and confidentiality (encryption)
+* What role should the provider play: would the provider have access to the encrypted data? Would the provider have to collude with another provider to do so? Or the provider cannot have access to the data.
+
+=== Key management
+
+If the SaaS service supports usage of customer keys, procedures and auditing trails should be setup to monitor usage of these keys.

@@ -1,0 +1,139 @@
+
+[[introduction]]
+== Introduction
+
+=== Background And Context
+
+The SaaS Governance Best Practice for SaaS Customers is a baseline set of
+fundamental SaaS governance practices for SaaS Customers. It
+enumerates and considers risks during all stages of the SaaS adoption lifecycle
+and take into account the SaaS usage lifecycle. The best practice also provides
+mitigation measures from the cloud customer's perspective.
+
+
+=== The Importance of SaaS
+
+//[What are the cloud service models]
+
+When a cloud customer talks about cloud services, most are speaking about Software-as-a-Service (SaaS) services.
+
+SaaS is by far the most prolific cloud service model compared to PaaS and IaaS. According to Gartner Research, SaaS covers 76.2% of cloud spending (total USD 113.5Bn in 2016, retrieved 2017/03/30). SaaS also covers over 60% of cloud workload, and is increasing in share [Cisco]. In addition, it is estimated that there are over 12,000 SaaS vendors worldwide compared to less than 500 IaaS and PaaS vendors combined [add reference].
+footnote:[http://www.gartner.com/newsroom/id/3616417]
+footnote:[https://www.forbes.com/sites/louiscolumbus/2017/04/29/roundup-of-cloud-computing-forecasts-2017/#17188c9731e8]
+
+SaaS has penetrated virtually all organizations mainly due to the potential business benefits, including efficiency and agility:
+
+* High adoption rate: 84% have adopted at least one SaaS organization-wide [CSA research].
+* 25% SaaS adopters are heavily reliant on SaaS [CSA research].
+* SaaS adoption is increasing year by year [Computer Economics 2015, 2016]
+
+image::images/image001.png[]
+image::images/image003.png[]
+
+
+==== Common Reasons For SaaS Adoption
+
+* Outsourcing responsibilities: Typically SaaS CSPs manage all aspects of an application, including security, on behalf of the cloud service customer. This includes capabilities that may be outside the customer's core skillset/competencies, such as access ubiquity, security and business continuity (e.g., backup, recovery). This allows the SaaS customer to better focus on its own core abilities.
+
+* Pervasion of consumer SaaS products: Some SaaS services provide functionality for both consumer and corporate usage, e.g., Dropbox, Google Mail or Office 365. Since these products are already widely used by consumers, their de-facto standard status carries over to the corporate world where employees are readily willing to adopt them within organizations with little to no learning requirements as they are already familiar with the SaaS service.
+
+* Potential cost-savings: Short-term usage without licensing investments offer significant cost-saving opportunities.
+
+* Ease and speed of deployment: SaaS services make it easy for organizations to quickly adopt new applications, allowing SaaS customers to collaborate with customers, suppliers and subsidiaries without technical hurdles and delays.
+
+* Transfer of CAPEX to OPEX: Many organizations prefer using SaaS services instead of investing in in-house resources to prevent increasing capital expenditure (CAPEX).
+
+=== SaaS services often represent the weakest link in security
+
+==== SaaS adopters experience SaaS specific security incidents
+
+image::images/image005.png[]
+
+//[CSA research]
+
+Over 77% organizational SaaS adopters have experienced SaaS security incidents. Close to 60% have experienced unwanted sharing of credentials or data.
+
+The nature of SaaS services make them often the weakest link in an organization's portfolio.
+
+While SaaS CSP's typically manage almost all aspects of security of a SaaS service, but it is ultimately the responsibility of the cloud customer to ensure that the security of the service aligns with the customers' organizational security requirements.
+
+
+==== SaaS Are Black Boxes
+
+Data is at the center of SaaS. When a potential SaaS customer is evaluating a SaaS service, one has the responsibility to assess the SaaS service and its provider very critically in terms of its security and compliance capabilities.
+
+Organizations using SaaS will no longer own parts of the software and hardware on which their business operates, and therefore are heavily reliant on the CSP for faithful, effective and accurate processing of its operational needs.
+
+Depending on the services they outsource to the cloud, organizations will rely on the cloud providers to offer the latest versions of software applications, the production of audit trail logs and to make data access transparent.
+
+Transparency has not been a strong feat of SaaS systems. Since each SaaS is made up of a diverse architecture, it is also difficult for a SaaS provider to make every single facet of their operations transparent and accessible to the SaaS customer. [therefore best practices are necessary.]
+
+Lack of visibility for SaaS customers [CSA survey]
+
+* 28% have no access into user logins
+* 29% have no audit logs
+* <49% know [where, when] sensitive data is accessed
+
+Without transparency to the data and operational details of a SaaS service, the SaaS customer is left with limited control and insight on own data hosted at the CSP.
+
+This limitation is the number 1 security and privacy concern for business decision-makers in SaaS adoption.
+
+
+==== SaaS architecture complexity
+
+The SaaS landscape is a diverse one and therefore poses diverse risks to a SaaS customer.
+
+SaaS typically involves the other cloud service models to facilitate a SaaS application. Each SaaS service may contain multiple components and layers operated by the same or different entities.
+
+Different from IaaS providers, SaaS services range from running everything themselves to relying on a mix of IaaS, PaaS and SaaS providers.
+
+Different architectures impose different responsibilities and implications to the SaaS customer.
+
+The level of control over its data that a customer has in the SaaS environment is very different from the other cloud service models such as IaaS and PaaS.
+
+image::images/image007.png[]
+
+
+==== SaaS service authority and ownership
+
+A SaaS service can outsource a majority of its many components.
+
+image::images/image008.png[]
+
+Many SaaS cloud providers lack the technology or resources to operate the physical side of the infrastructure of their cloud environment.
+
+Instead, they outsource the infrastructure to a third-party CSP such as Microsoft Azure, Google Compute Engine or Amazon AWS.
+
+This provider-of-the-provider arrangement can make it challenging for the cloud service customer to keep track of regulatory compliance requirements, data incident reporting, contractual liability and so forth.
+
+
+==== SaaS presents wide-ranging and enormous risks unless mitigated
+
+SaaS poses a much higher risk than traditional on premise applications. SaaS is a black box, we don't know what the application stack looks like, we don't know where the application is deployed, we don't know where our data is housed and we don't know how long the CSP its supply chain is.
+
+* Compared to PaaS or IaaS, SaaS potentially provides a larger attack surface accessible by more threat agents.
+
+* SaaS CSP supply chain may be deep and broad, and could traverse multiple jurisdictions. [=> more exposure]
+
+* A SaaS service may seem simple but often provide a broad array of services under the same product banner, such as providing API access, micro services and mobile client access. [=> Larger attack surface]
+
+* The underlying application stack of a SaaS can be very deep -- relying on multiple virtualization and dependent technologies, including development libraries, operating systems, container images, virtual machines as well as physical machines. [=> more attack vectors]
+
+As an analogy, a IaaS or PaaS may be a car parts manufacturer, where each manufactured part is easy to understand and simple to test for failure. There could be simple statistics such as MBTF that describe predictable behavior of a part. On the other hand, a SaaS service serves both the integrator and the developer role, by integrating multiple underlying cloud vendor as well as layering its own intellectual property around it. Resulting failures can be caused by any integrated service or component, and could be complex to investigate and understand. Its dependency of different components is commonly unknown to the SaaS customer and therefore hard to act upon as a customer.
+
+The result is that any security incident on a SaaS provider may critically impact its SaaS customers directly, and from the SaaS customer perspective, it is necessary to mitigate such risks.
+
+The important part is that a SaaS services are built for a specific purpose, and this purpose is often directly linked to business goals. Business goals are exactly what malicious agents target for. This means that the type of data stored in a SaaS account is is often well known to users and attacker alike, and can therefore specifically be targeted by malicious agents.
+
+(=> More threat agents)
+
+
+==== Most SaaS providers lack proper security expertise
+
+* Many SaaS providers are "`born in cloud`": Low entry barriers due to proliferation of IaaS / PaaS services [WIP ref]
+
+* Security comes with a cost that most SaaS don't want to afford: Security engineers command almost a 10% premium over other IT jobs [WIP ref]
+
+* Shortage of security skillsets: 1.5m security personnel shortfall in 2019; 80% employers had difficulty finding qualified cybersecurity expertise [WIP ref]
+
+* SaaS security is an afterthought: Providers seek the cost benefits of being in the cloud without considering cloud threats [WIP ref]

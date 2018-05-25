@@ -1,0 +1,348 @@
+
+[[policies]]
+== Information security policies
+
+SaaS Customers should develop a SaaS security strategy and build a security architecture that reflects that strategy.
+
+=== Policies for information security
+
+Policy governing adoption, termination and usage of SaaS services.
+
+Usage policies should be considered for each adopted SaaS service:
+
+* [WIP]
+
+==== Evaluation
+
+The initial evaluation of a SaaS service will typically allow the business, legal and security stakeholders to understand the risk of the transaction and proceed accordingly.
+
+The key question to answer at this stage is, "`Is this a potential fit with our risk profile?`"
+
+===== Determining acceptable risk
+
+The first step of evaluating a SaaS service is to determine what risks it would raise to the SaaS customer.
+
+According to <<ISO27001>>, a risk management approach should be used to manage information security. A SaaS customer should first determine what is acceptable risk to the organization from the SaaS service, which forms the baseline of the evaluation stage. Different methods can be used to manage risk, including the international risk management standard <<ISO31000>>.
+
+image::images/image013.png[]
+
+Given an understanding of the organization's risk profile, a SaaS customer should be able to determine if the SaaS service in question could be a potential fit with the organization's risk profile.
+
+One way of determining the risk profile of a SaaS service can be determined by understanding the usage context of the SaaS service taking the following considerations into account:
+
+* Data
+** E.g., What data will I process at and expose to this SaaS?
+
+* Processes
+** E.g., Does this service affect my core processes?
+
+* Requirements
+** E.g., What business requirements, laws and regulations are relevant to this service?
+
+At this stage the following aspects should be evaluated on how they affect the risk profile of the SaaS customer:
+
+* The SaaS provider
+* The SaaS service
+* The usage of the SaaS service
+
+The most common risk profiling method available is the classic CIA classification:
+
+* Confidentiality
+* Integrity
+* Availability of information.
+
+With CIA, applications and databases are risk scored per your requirements.
+
+Once the risk footprint has been established you can start calculating the risk the SaaS application poses.
+
+There are many ways to calculate risk and developing a risk profiling framework depends on your need and type of industry.
+
+It pays to keep in mind that by transferring activities to a CSP, the SaaS customer itself is not outsourcing its responsibility to the CSP. The SaaS customer must always keep in mind that the risk owner is responsible for accepting residual risk of adopting a SaaS service.
+
+===== Security and privacy requirements
+
+Once a baseline risk level is established, many cloud service customers engage in a security and privacy due diligence process. It is common for cloud service customers to send assessment questionnaires or RFIs to the cloud provider for completion.
+
+These questionnaires inquire about internal security controls the customer wants to see in place with the CSP, and typically address regulatory requirement concerns around security and privacy.
+
+Self-assessment schemes such as the CSA STAR self-assessment or the Common Assessment also helps CSPs inform potential customers about SaaS provider security capabilities.
+
+They also inquire about the cloud provider's use and disclosure of personal information to determine where personal information will be processed and whether the cloud provider will be using the information for its own purposes or disclosing to third parties (for example, disclosures to 3rd party advertisers).
+
+===== Communicating requirements
+
+The responses to these questionnaires further allow customers to refine their risk assessment, and feed into the contracting phase of the cloud transaction. To reinforce their risk assessment and due diligence process, and as part of their supplier management, many cloud customers create standard data security and privacy schedules to include in their cloud contracts.
+
+The purpose of these schedules is to address regulatory issues, provide a mechanism to hold a cloud vendor to reasonable security standards, establish incident response obligations and transfer risk of loss for data breaches or privacy violations caused by the cloud provider.
+
+Again, the overall goal is to attempt to contractually create a seamless relationship with the cloud provider and reduce risk as much as possible.
+
+The contracting process for vendor management programs is sometimes further refined to allow customers to have pre-established "`fallback`" positions for certain terms during negotiations with cloud providers. It is not unusual for both a customer's legal team and security team to be involved in the negotiation of these terms.
+
+===== Internal context
+
+[WIP]
+
+Controls:
+
+* SaaS strategy and policy.
+* Consequences of failure, supplier management.
+
+Customers should develop a SaaS security strategy and build a security architecture that reflects that strategy.
+
+Threat modelling and threat profiling are key in developing the SaaS security strategy.
+
+
+===== Service terms
+
+[WIP]
+
+The failure to negotiate robust incident response and security and forensic assessment rights can also pose risk.
+
+In this context, CSPs should be viewed as an extension of the customer's IT environment, and customers should attempt to obtain as much control as possible contractually.
+
+If a cloud provider suffers a breach that impacts the customer's information, but that provider does not have a contractual duty to provide notice of the breach, remediate and cooperate, then the customer may not be able to reduce its legal risk and comply with regulatory obligations
+
+Controls:
+
+* Service level management
+** SLA vs our availability requirements
+** Business continuity promises: RPO, RTO
+** Incident handling and escalation
+
+* Legal concerns
+** Legal and regulatory requirements
+** Jurisdictional authority, legal requirements of CSP and SaaS service
+** Indemnity: relocation of jurisdiction, M&A
+
+* Notifications: security, privacy, compliance changes and events
+
+* Termination rights
+
+===== Affected data
+
+Another significant risk that cloud computing presents is a general loss of control over data transferred to the cloud and network availability outsourced to the cloud.
+
+For instance, in a more traditional IT setting, organizations have the ability to assess and adjust their systems so they are compliant with applicable regulations and standards.
+
+For instance, an organization sending data to a CSP located the EU must follow the requirements of the EU.
+
+But an organization can be deemed noncompliant if their data was transferred to a jurisdiction that violates that rule.
+
+And since many SaaS providers use infrastructure as a service providers located in multiple jurisdictions, compliance represents an increased risk.
+
+A SaaS customer should be able to answer the following questions:
+
+* What data will be transferred to the SaaS service?
+* What data will the SaaS service have access to?
+* What reliance will we have to the SaaS service on our data?
+
+For example, if only non-sensitive records are being stored at the CSP, as opposed to social security numbers or financial account data, less supplier scrutiny may be appropriate.
+
+Controls:
+
+* Confidentiality requirements driven by data value
+* Data classification requirements (e.g., HIPAA, PCI)
+* Data and metadata control: ownership, processing, licensing
+* Data location and sovereignty
+* Availability requirements and data mobility
+
+===== Privacy
+
+Controls:
+
+* Our role vs role of the SaaS service?
+** Controller (PII of customers or staff)
+** Processor (PII supplied by a controller)
+
+* Privacy policy: do they sell our data?
+* Breach obligations and responsibilities
+* PII data inventory, visibility
+* Consent management
+
+Further, the ever-changing regulatory landscape itself increases the risk of violation. Concerns abroad about US CSPs housing European citizen's data, have only increased that potential risk.
+
+
+==== Adoption
+
+Treat usage risks on adoption of a SaaS service.
+
+Usage Risk is the risk your organization is incurring based on how you are using a specific SaaS service.
+
+
+===== Perform detailed risk assessment
+
+* Application functionality
+* Security and monitoring capabilities
+* Aligning with business/internal requirements
+
+To identify risk a detailed risk assessment on the SaaS service and CSP is a must.
+
+
+===== Develop policies and procedures
+
+* Account management procedures
+* Acceptable use policy against service abuse
+* Integrate user lifecycle procedures in business
+* Follow data classification and labelling procedures
+* Integrate into existing service level, incident and vulnerability management processes
+
+Controls to modify risk of SaaS are procedural and technical in nature.
+
+===== Configuration management
+
+* Determine configuration baseline
+* Setup service according to security policies, perform risk treatment if required
+
+Secure configuration and technical solutions such as multi-factor authentication are a security force multiplier.
+
+Please keep in mind that the use of OTPs (one-time passwords) should be in line with your threat profile.
+
+SMS-based OTPs can lead to compromise (or even worse) in countries where the telecom providers are under control of oppressive governments.
+
+===== Security configuration
+
+* Authentication and authorization
+** Multi-factor authentication, single sign on
+** Access restrictions based on geolocation
+
+* Data loss prevention
+* Password policies and history
+* Role-based access control
+
+Single sign-on is typically used by organizations to provide a single identity to users so they can access multiple applications.
+
+Single sign-on improves security and the user experience because employees do not need to keep track of multiple passwords and thus are not tempted to write them down.
+
+Single sign-on however is not always preferred or even allowed - particularly in financial organizations.
+
+
+===== Data
+
+* Availability mitigation processes if necessary, data exports, backups
+* Inventory of assets, ownership and responsibilities
+* Limitations on external sharing
+* Cryptographic controls and requirements
+
+Data loss prevention helps to provide a higher level of information protection. It prevents the transfer or exfiltration of certain types of documents.
+
+DLP has two aspects: detection and action.
+
+Detection means that automated systems search for certain keywords or phrases.
+
+Appropriate actions are initiated such as informing the user of the relevant security policies that are violated, quarantining or deleting a document or attachment.
+
+SaaS CSPs typically provide mechanisms or APIs for their customers to automate this process.
+
+===== Understand threat vectors and attack surface
+
+And understand what threats there are and develop controls to change risk.
+
+* Secure access and network components to service
+* Develop controls to reduce attack vectors, e.g., malicious files can spread via document sharing
+* Develop controls on potential internal failure points, e.g., DNS spoofing, phishing
+
+===== User awareness and training
+
+* Develop best practices guidelines for secure usage of this service
+* Enforce data classification and labelling
+* User awareness on what are security incidents for this service and how to report them
+* Promote a no-repercussion atmosphere for candid reports
+
+==== Usage
+
+* Acceptable use
+* Administration
+
+===== Periodic service/supplier reviews
+
+* Monitor service terms and conditions for changes archive versions
+* Validity of security assurances
+* Ongoing security performance
+
+CSP supplier management is challenging.
+
+===== Alerts
+
+* Monitor suspicious logins and data access
+* Monitor service usage and abuse
+* Monitor service attributes for SLA compliance
+
+Service terms and conditions can change overnight resulting in loss of control. Therefor you should continuously monitor the attributes of the service using automated tooling.
+
+Monitor configuration changes and alert if necessary.
+
+===== Usage visibility
+
+* Authentication logs with login, user location
+* Access logs
+* Audit logs
+* Account provisioning and de-provisioning logs
+
+===== Continuously evaluate and reduce attack surface
+
+* Monitor basic attributes of service for sanity check
+* Review controls to reduce attack vectors
+* Monitor potential internal failure points
+
+===== Configuration management
+
+* Monitor configuration changes and alert if necessary
+
+===== Data
+
+* Monitoring of valid backups
+
+Ensure that backups of data is performed and even more important, test the backups by performing or requesting a restore.
+
+
+
+==== Termination
+
+Termination of SaaS usage requires coordination and planned execution.
+
+One of the most important yet frequently overlooked risks of SaaS services lies in the contracts offered by CSPs.
+
+Organizations have traditionally worked with their legal departments to negotiate service provider contract terms to be less "`vendor-friendly`" and to mitigate any losses caused by service providers by holding the providers financially responsible.
+
+But cloud providers haven't been willing to offer the usual indemnification, limitations of liability or other terms — particularly pertaining to privacy and data security.
+
+The most prevalent reasons CSPs site is that these additional duties and obligations threaten the lower price model for cloud computing and, since CSPs don't know what their customers are storing on the cloud, they can't be held liable for segregating and securing customer data.
+
+Unfavorable terms in cloud agreements may increase the risk for cloud service customers.
+
+Cloud service customers may also want to contractually limit the subcontractors that a CSP utilizes to store or process the customer's data. Without these limitations, a customer may find that its data is actually two or three hops removed from the primary CSP.
+
+===== Internal processes
+
+* Notify all users on service termination
+* Guidelines on replacement or data extraction
+* Extract data for future usage or migration to new service
+* Where to store and who is responsible?
+
+===== Data retention
+
+* Destruction of backups and residual data/metadata (system logs, audit logs, access logs, search indices, etc)
+* Data retention timeframe should satisfy data classification requirements
+* Exporting and removal of financial information
+* Exporting of usage and other reports
+
+===== Return of assets
+
+* Export of data/metadata (audit logs, access logs, backups)
+* Comply with data location requirements
+* Acceptable data formats
+* Delivery time, method, accessible for how long
+
+===== Decommission service-specific attachments
+
+* Service specific monitoring
+* Security monitoring of service
+
+===== Service management
+
+* Removal of all integrations with service
+* Ensure decommissioning of service
+* Ensure closure of contract
+
+=== Review of the policies for information security

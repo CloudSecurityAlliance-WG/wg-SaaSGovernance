@@ -1,0 +1,83 @@
+
+[[sector-specific]]
+== Sector-specific concepts for SaaS customers
+
+=== Overview
+
+SaaS customers should assess and mitigate information security risks raised by the usage of SaaS services. This document provides implementation guidance based on <<CCM301>> and <<ISO27002>> and provides additional controls to address SaaS-specific information security threats and risks.
+
+Users of this document should view its content according to the <<CCM301>> and <<ISO27001>>.
+
+=== Using this document
+
+This document has a structure similar to that of <<ISO27002>>.
+
+In cases where objectives and controls specified in <<ISO27002>> are applicable without a need for any additional information, only a reference is provided to <<ISO27002>>. Additional controls and associated implementation guidance applicable to SaaS customer security management practices are described in <<annex-a>>.
+
+In cases where controls need additional guidance applicable to SaaS customers, this is given under the heading SaaS customer implementation guidance.
+
+=== Approach
+
+SaaS requires a different security governance mindset. Due diligence starts at a high level, and works itself down to the details.
+
+An organization should first seek a framework that suits the organization's security and business needs. That framework will shape the policies, processes and staff that make up the security architecture.
+
+Second, assess the supply chain of the CSP by method of interview or analyzing self-disclosures. Ensure you are aware whether the offered service is a shared tenant one or if your organization gets a dedicated single tenant environment.
+
+Traditionally security organizations would protect the data by functioning as a gatekeeper.
+
+image::images/image009.png[]
+
+image::images/image011.png[]
+
+
+With SaaS, organizations must rely more on monitoring and shepherding.
+
+=== Structure
+
+We define three necessary components of SaaS security: process, platform and application.
+Integrated security for SaaS can be realized by gluing process security, platform security and application security together.
+
+Process security protects the integrity of process activities, to ensure the input and output of processes are not easily compromised. These are the managerial aspects including policies and procedures to ensure that an organization's processes are consistent.
+
+Platform security deals with the security strength of the platform, the underlying dependencies of a SaaS service. These include the infrastructure the SaaS service runs on, its suppliers,
+
+Application security deals with security of the SaaS application itself. A SaaS application can only stay secure if itself does not contain exploitable vulnerabilities. [Need to reword.]
+
+In conjunction to the three factors, additional security controls can be integrated to the above approaches on a horizontal manner.
+
+Sector-specific security controls are commonly used to satisfy privacy, governmental or financial compliance. Examples are <<CCM301>>, HIPAA and PCI-DSS. These requirements are often vertically-focused that apply across three SaaS security areas.
+
+=== Lifecycle considerations
+
+The SaaS adoption and usage lifecycles.
+
+==== Adoption lifecycle
+
+The SaaS adoption lifecycle is composed of 4 steps:
+
+* Evaluation
+* Adoption
+* Usage
+* Termination
+
+
+
+==== Usage lifecycle
+
+The SaaS usage lifecycle is composed of 4 steps:
+
+* Eligibility: Should this person be a user of this service
+* Provisioning: What needs to be done to add this person to the service?
+* Monitoring: Is this person actually using the service, in a normal manner?
+* Deprovisioning: How do we remove this person from the service?
+
+image::images/image012.png[]
+
+
+The SaaS usage lifecycle helps protect against daily operational risks and the weakest link: the human factor.
+
+The SaaS usage lifecycle maps out how your organization engages the CSP and the SaaS service.
+
+It is important that you understand and monitor the SaaS usage lifecycle in its entirety.
+It can be very easy to get drawn in to focusing all your efforts in optimizing one stage of the lifecycle, such as onboarding, when doing so won't help the business to achieve its desired outcomes more easily or quickly.

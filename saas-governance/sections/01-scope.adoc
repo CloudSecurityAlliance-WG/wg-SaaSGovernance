@@ -1,0 +1,13 @@
+
+[[scope]]
+== Scope
+
+This document:
+
+* provides a baseline set of SaaS governance best practices
+for SaaS Customers to protect their own and their customer's information;
+
+* enumerates and considers risks according to the SaaS adoption and usage lifecycles; and
+
+* provides potential mitigation measures from the SaaS customer's perspective.
+

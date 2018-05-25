@@ -1,0 +1,58 @@
+
+[[suppliers]]
+== Supplier relationships
+
+=== Information security in supplier relationships
+
+==== Information security policy for supplier relationships
+==== Addressing security within supplier agreements
+==== Information and communication technology supply chain
+
+===== Certified assurance
+
+Certified assurance is the process where a trusted third-party attests that a provider is trustworthy.
+
+////
+Zeal Somani
+9:19 PM Jun 8
+We should add about PCI DSS. There are several service providers which offer SaaS application. They go through a full PCI DSS assessment although they do not store, process, or transmit card data but due to the fact their connection could impact the security of their client's CDE(cardholder data environment). Such providers have a shared responsibility with CSP in several control areas.
+////
+
+Certified assurance can help simplify risk assessments – they are extremely useful as input to risk assessments as they can help clarify what is claimed versus reality of a provider. In addition, a number of such schemes provide stringent assessment on security practices of the SaaS provider, in a detailed manner that is not accessible by SaaS customers.
+
+Cloud service customers should expect their providers to have established at minimum an information security management system (ISMS) which is the foundation of ISO 27001.
+Ideally the CSP discloses the state of their controls and security practices. Typically, this is done by the means of third-party audit reports such as SOC2 Type 2.
+
+Some CSPs go beyond that and let prospects and customers perform audits and penetration testing of the SaaS applications and services.
+
+Keep in mind that not all certifications and audit reports are the same.
+A certification like ISO 27001 demonstrates that the CSP has established a base for information security management.
+
+Additional cloud related security certifications such as STAR certification or even STAR attestation, provide a higher level of assurance.
+
+For instance, the SOC1 audit validates only a list of controls that an organization provided to an auditor.
+
+Finally, pay close attention to the scope and business entity of a certification. The scope should cover the SaaS services you are considering and the business entity should be the entity you will be signing the contracts with.
+
+Also, make sure the report covers all the provider its facilities and locations – not just the data center that houses the application.
+
+
+
+The Trust Triangle.
+
+A SaaS customer can seek assurance reports especially in the following areas from a SaaS provider:
+
+* Cloud security, e.g., CSA STAR Certification, CSA STAR Attestation, CSA CSTAR Assessment, ISO/IEC 27017
+* Government security, e.g., Singapore SS 584 Multi-Tiered Cloud Security
+* Application security, e.g,. BSI Kitemark for Secure Digital Transactions, OWASP ASVS
+* Integrated security, e.g., AICPA SOC 2, <<ISO27001>>
+* Privacy, e.g., ISO/IEC 27018
+* PCI DSS
+* Privacy Shield
+
+
+=== Supplier service delivery management
+
+==== Monitoring and review of supplier services
+
+==== Managing changes to supplier services

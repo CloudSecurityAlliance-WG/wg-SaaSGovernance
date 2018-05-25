@@ -1,0 +1,51 @@
+
+[[operations]]
+== Operations security
+
+=== Operational procedures and responsibilities
+
+==== Documented operating procedures
+==== Change management
+==== Capacity management
+==== Separation of development, testing and operational environments
+
+
+=== Protection from malware
+==== Controls against malware
+
+
+=== Backup
+==== Information backup
+
+
+=== Logging and monitoring
+
+==== Event logging
+==== Protection of log information
+==== Administrator and operator logs
+==== Clock synchronization
+
+
+=== Control of operational software
+==== Installation of software on operational systems
+
+
+=== Technical vulnerability management
+
+Define responsibilities for vulnerability management.
+
+For organizations using cloud resources over SaaS, controlling security can be challenging in some cases. For example, a SaaS customer may not be able to mitigate known vulnerabilities of a SaaS application if it is severe and out of the customer's reach.
+
+There are cases, however, where customers can mitigate risks. Consider the case when a SaaS application accepts a weak TLS cipher: the customer's policy could enforce all its users to use a more resilient cipher on connections to this SaaS, thereby mitigating this vulnerability until it is ultimately resolved.
+
+==== Management of technical vulnerabilities
+
+* Manage and track vulnerabilities affecting SaaS customer usage
+* Procedure for tracking and escalating problems to SaaS provider
+* Mitigate existing problems and manage usage to affected areas
+
+==== Restrictions on software installation
+
+
+=== Information systems audit considerations
+==== Information systems audit controls

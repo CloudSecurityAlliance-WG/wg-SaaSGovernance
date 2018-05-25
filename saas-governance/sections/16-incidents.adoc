@@ -1,0 +1,47 @@
+
+[[incident-management]]
+== Information security incident management
+
+=== Management of information security incidents and improvements
+
+==== Responsibilities and procedures
+
+Define responsibilities for handling security incidents of a SaaS provider.
+
+==== Reporting information security events
+
+* Keeping track of security events
+* When should a security event be escalated to the SaaS provider?
+
+==== Reporting information security weaknesses
+
+* Determine weaknesses using vulnerability scanning tools
+* Scan for weaknesses in various systems such as applications, infrastructure, network, database etc.
+
+==== Assessment of and decision on information security incidents
+
+* Determine the actual source of the incident
+* Use Security Information and Event Management (SIEM) to consolidate logs from multiple sources
+
+==== Response to information security incidents
+
+* Determine if it is a false positive
+* Classify the type of an incident
+* Categorize the level of criticality of the incident
+* Determine the source of the incident
+* Reduce impact of incident
+* Identify the root cause
+* Get back up and running in shortest amount of time
+* Prevent incident from occurring again
+* Reduce potential impact
+* Prevent an outbreak
+* Track the event to prevent further wrongdoing
+
+==== Learning from information security incidents
+
+* Learn from mistakes as well as from the successes
+* Collect meaningful data that can be used to track performance metrics for the Incident response team
+* Use output from the feedback processes to modify policy and guidelines
+
+
+==== Collection of evidence

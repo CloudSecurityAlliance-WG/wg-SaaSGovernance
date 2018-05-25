@@ -1,0 +1,60 @@
+
+[[asset-management]]
+== Asset Management
+
+To benefit from a SaaS service, the SaaS customer would need to provide certain data to be processed on the SaaS service. Therefore management of data is extremely important for a SaaS customer.
+
+=== Responsibility for assets
+
+==== Inventory of assets
+
+A SaaS customer should be able to answer the following questions:
+
+* What data will be transferred to the SaaS service?
+* What data will the SaaS service have access to?
+* What is our reliance to the SaaS service for our data? How reliable is our data in the SaaS service?
+* Are there any geolocation requirements for the data, such as regulatory or client service requirements?
+
+==== Ownership of assets
+
+A SaaS customer should be able to answer the following questions:
+
+* Who is responsible for what data located on the SaaS service?
+
+==== Acceptable use of assets
+
+There are two parts to this:
+
+* What is the SaaS provider allowed to do with our data? Metadata?
+* What are our users allowed to do with data on the SaaS service?
+
+Data and metadata control: ownership, processing, licensing
+
+==== Return of assets
+
+<<CCM301>>
+
+* What will the SaaS provider do with our data on termination of service?
+* What happens with data
+
+=== Information classification
+
+==== Classification of information
+
+* Confidentiality requirements driven by data value
+* Data classification requirements (e.g., HIPAA, PCI)
+
+==== Labelling of information
+
+==== Handling of assets
+
+* Data location and sovereignty
+* Availability requirements and data mobility
+
+=== Media handling
+
+==== Management of removable media
+
+==== Disposal of media
+
+==== Physical media transfer

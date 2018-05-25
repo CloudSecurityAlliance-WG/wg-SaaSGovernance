@@ -1,0 +1,79 @@
+
+[[access-control]]
+== Access control
+
+=== Business requirements of access control
+
+==== Access control policy
+
+* Evaluate whether person needs access to this
+* Identify business requirements and role
+* Information clearance based on data classification
+* Approval by security review and data owner (sponsor)
+
+Users in organizations are typically granted access to applications based on historical events or by cloning the access rights of their peers.
+
+Therefore it is important to evaluate whether a person genuinely needs access to a service and to identify the business requirements and establish roles.
+
+==== Access to networks and network services
+
+
+=== User access management
+
+==== User registration and deregistration
+
+User awareness is vital: you need to help the business understand their security problems, and help them understand how their role will help them solve it.
+
+==== User access provisioning
+
+* User training on best practices
+* Awareness on acceptable use, relevant policies and procedures
+* Create account according to user access baseline
+* Least privilege
+* Billing party: group or sponsor based on usage?
+* Identify and set resource limits
+
+Always follow the concept of least privilege and identify and set resource limits.
+
+==== Management of privileged access rights
+
+==== Management of secret authentication information
+
+==== Review of user access rights
+
+==== Removal or adjustment of access rights
+
+* Ensure immediate account termination without residual
+* Halts resource billing related to account
+* Audit logs and access logs must be kept
+* Security review if necessary
+* Update account termination logs and inventory
+
+Ensure audit logs are reviewed and retained.
+
+And finally, ensure billing is halted when resources are no longer used. Do this in an automated fashion and try to eliminate any manual actions.
+
+=== User responsibilities
+
+==== Use of secret authentication information
+
+==== Monitoring of user access
+
+* Set monitoring alerts based on basic usage profile
+* Alert on suspicious login (e.g., location, time) and data access (e.g., batch access)
+* Adherence to password policies
+* Data loss prevention
+
+Setup alerts and monitor suspicious behavior and logins.
+
+=== System and application access control
+
+==== Information access restriction
+
+==== Secure log-on procedures
+
+==== Password management system
+
+==== Use of privileged utility programs
+
+==== Access control to program source code

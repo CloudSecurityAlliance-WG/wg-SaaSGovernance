@@ -1,0 +1,41 @@
+
+[[organization]]
+== Organization of information security
+
+=== Internal organization
+
+==== Information security roles and responsibilities
+
+Despite that many view SaaS as an outsourced responsibility, security is ultimately a shared responsibility between the SaaS provider and the SaaS customer.
+
+For a SaaS customer, not all aspects of SaaS security can be controlled. For example, a SaaS customer may not be able to mitigate known vulnerabilities of a SaaS application even when it is severe, but out of the customer's control.
+
+There are cases, however, where customers can mitigate some of the risks for. Consider the case when a SaaS application accepts a weak TLS cipher: the customer's policy could enforce all its users to use a more resilient cipher while communicating with this SaaS, thereby mitigating this vulnerability until it is ultimately resolved.
+
+A SaaS customer must consider how these three aspects of a SaaS service could affect its own risks.
+
+In general, a SaaS customer manages these risks mainly through a combination of managerial and technical controls, to protect its processes from the security and operational risks that arise from the reliance on the SaaS platform itself.
+
+==== Segregation of duties
+
+==== Contact with authorities
+
+==== Contact with special interest groups
+
+==== Information security in project management
+
+=== Mobile devices and teleworking
+
+==== Mobile device policy
+
+A SaaS service often provides mobile device access through a web frontend catered to mobile devices or through a SaaS service-specific application installable on mobile devices. Policies should be instantiated on what is allowed on such an application on BYOD devices or organization owned devices, and what data is allowed to be processed on such devices.
+
+==== Teleworking
+
+One benefit of SaaS services is to be available through the Internet. This means that often business applications can be utilized outside of the workplace, which allows remote working. Given this benefit, the SaaS customer must define what is considered acceptable usage of a SaaS service with regards to teleworking.
+
+* What data can a remote worker access on the SaaS?
+* What are the data labelling requirements?
+* Different ways in which a particular data is accessed by a remote worker?
+* Is the data available to everyone with an account to access the SaaS service?
+* What are the various risk scenarios and mitigation strategies?

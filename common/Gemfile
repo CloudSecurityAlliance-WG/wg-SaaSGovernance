@@ -1,0 +1,9 @@
+source "https://rubygems.org"
+
+gem "metanorma" #, git: "https://github.com/riboseinc/metanorma"
+gem "asciidoctor-csand" #, path: "~/src/asciidoctor-csand"
+#, git: "https://github.com/riboseinc/asciidoctor-csand"
+
+# gem "asciidoctor-iso", git: "https://github.com/riboseinc/asciidoctor-iso"
+# gem "html2doc", git: "https://github.com/riboseinc/html2doc"
+# gem "isodoc", git: "https://github.com/riboseinc/isodoc"
