@@ -26,9 +26,9 @@ Second, assess the supply chain of the CSP by method of interview or analyzing s
 
 Traditionally security organizations would protect the data by functioning as a gatekeeper.
 
-image::images/image009.png[]
+image::image009.png[]
 
-image::images/image011.png[]
+image::image011.png[]
 
 
 With SaaS, organizations must rely more on monitoring and shepherding.
@@ -72,7 +72,7 @@ The SaaS usage lifecycle is composed of 4 steps:
 * Monitoring: Is this person actually using the service, in a normal manner?
 * Deprovisioning: How do we remove this person from the service?
 
-image::images/image012.png[]
+image::image012.png[]
 
 
 The SaaS usage lifecycle helps protect against daily operational risks and the weakest link: the human factor.

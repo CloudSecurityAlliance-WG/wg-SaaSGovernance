@@ -24,7 +24,7 @@ The first step of evaluating a SaaS service is to determine what risks it would 
 
 According to <<ISO27001>>, a risk management approach should be used to manage information security. A SaaS customer should first determine what is acceptable risk to the organization from the SaaS service, which forms the baseline of the evaluation stage. Different methods can be used to manage risk, including the international risk management standard <<ISO31000>>.
 
-image::images/image013.png[]
+image::image013.png[]
 
 Given an understanding of the organization's risk profile, a SaaS customer should be able to determine if the SaaS service in question could be a potential fit with the organization's risk profile.
 

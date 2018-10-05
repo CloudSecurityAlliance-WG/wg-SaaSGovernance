@@ -27,8 +27,8 @@ SaaS has penetrated virtually all organizations mainly due to the potential busi
 * 25% SaaS adopters are heavily reliant on SaaS [CSA research].
 * SaaS adoption is increasing year by year [Computer Economics 2015, 2016]
 
-image::images/image001.png[]
-image::images/image003.png[]
+image::image001.png[]
+image::image003.png[]
 
 
 ==== Common Reasons For SaaS Adoption
@@ -47,7 +47,7 @@ image::images/image003.png[]
 
 ==== SaaS adopters experience SaaS specific security incidents
 
-image::images/image005.png[]
+image::image005.png[]
 
 //[CSA research]
 
@@ -91,14 +91,14 @@ Different architectures impose different responsibilities and implications to th
 
 The level of control over its data that a customer has in the SaaS environment is very different from the other cloud service models such as IaaS and PaaS.
 
-image::images/image007.png[]
+image::image007.png[]
 
 
 ==== SaaS service authority and ownership
 
 A SaaS service can outsource a majority of its many components.
 
-image::images/image008.png[]
+image::image008.png[]
 
 Many SaaS cloud providers lack the technology or resources to operate the physical side of the infrastructure of their cloud environment.
 
