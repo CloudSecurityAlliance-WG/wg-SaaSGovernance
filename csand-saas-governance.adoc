@@ -1,0 +1,48 @@
+= CSA Standard: SaaS Governance Best Practice for Cloud Customers
+:title: SaaS Governance Best Practice for Cloud Customers
+:docnumber: CSA 11001
+:doctype: standard
+:status: working-draft
+:edition: 1
+:copyright-year: 2018
+:revdate: 2018-05-25T00:00:00Z
+:technical-committee: SaaS Governance
+:language: en
+:script: Latn
+:draft:
+:toc:
+:stem:
+:xrefstyle: short
+:imagesdir: images
+:local-cache-only:
+:data-uri-image:
+
+:sectnums!:
+
+include::sections/00-foreword.adoc[]
+include::sections/00-introduction.adoc[]
+
+:sectnums:
+
+include::sections/01-scope.adoc[]
+include::sections/02-references.adoc[]
+include::sections/03-terms.adoc[]
+include::sections/04-sectors.adoc[]
+include::sections/05-policies.adoc[]
+include::sections/06-organization.adoc[]
+include::sections/07-hr.adoc[]
+include::sections/08-asset-management.adoc[]
+include::sections/09-access-control.adoc[]
+include::sections/10-cryptography.adoc[]
+include::sections/11-physical-security.adoc[]
+include::sections/12-operations-security.adoc[]
+include::sections/13-communications-security.adoc[]
+include::sections/14-maintenance.adoc[]
+include::sections/15-suppliers.adoc[]
+include::sections/16-incidents.adoc[]
+include::sections/17-bc.adoc[]
+include::sections/18-compliance.adoc[]
+include::sections/aa-controls.adoc[]
+
+include::sections/99-bibliography.adoc[]
+
