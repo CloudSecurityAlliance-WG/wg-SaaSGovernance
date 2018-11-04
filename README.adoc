@@ -1,0 +1,86 @@
+:repo-name: csand-saas-governance
+
+= CSA SaaS Governance WG: SaaS Governance Best Practice for Cloud Customers
+
+image:https://travis-ci.com/riboseinc/csand-saas-governance.svg?branch=master["Build Status", link="https://travis-ci.com/riboseinc/csand-saas-governance"]
+
+This document is available in its rendered forms here:
+
+* https://riboseinc.github.io/csand-saas-governance/[CSA SaaS Governance Best Practice for Cloud Customers (HTML)]
+* https://riboseinc.github.io/csand-saas-governance/csand-saas-governance.pdf[PDF]
+* https://riboseinc.github.io/csand-saas-governance/csand-saas-governance.xml[Metanorma XML]
+* https://riboseinc.github.io/csand-saas-governance/csand-saas-governance.rxl[Relaton XML (Bibliographic item)]
+
+== Introduction
+
+This document describes the best practices for cloud customers in
+governing usage of SaaS services.
+
+This document is written in AsciiDoc using https://www.metanorma.com/software/metanorma-csand/[Metanorma-CSAND], the Metanorma flavor for "`CSA Normal Documents`".
+
+
+== Usage
+
+=== General
+
+This specification is built using https://www.metanorma.com[Metanorma].
+
+
+=== Fetching the document
+
+[source,sh]
+----
+git clone https://github.com/riboseinc/{repo-name}/
+----
+
+
+=== Installing Build Tools
+
+See the https://www.metanorma.com/overview/getting-started/[Metanorma Quick Start Guide]
+for more information.
+
+
+=== Running via Docker or locally
+
+If you have installed the build tools locally, and wish to run the
+locally-installed compilation tools, there is nothing further to set.
+
+If you don't want to deal with local dependencies, use the docker
+version by:
+
+[source,sh]
+----
+export METANORMA_DOCKER=1
+----
+
+The `Makefile` will automatically choose the proper command to
+execute.
+
+
+=== Building the document
+
+[source,sh]
+----
+make clean all
+----
+
+The following outputs will be built:
+
+* CSAND XML (https://github.com/riboseinc/metanorma-model-csand) (`[filename].xml`)
+* HTML (`[filename].html`)
+* PDF (`[filename].pdf`)
+
+
+
+=== Iterating the document
+
+[source,sh]
+----
+make clean all
+open *.html
+----
+
+
+== Deployment
+
+The built artifacts are deployed on GitHub pages.
