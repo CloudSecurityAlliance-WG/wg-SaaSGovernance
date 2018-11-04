@@ -2,9 +2,11 @@
 .swp
 .tmp.xml
 
-# ISO files
-iso-*.html
-iso-*.doc
-iso-*.xml
-iso-*_files
+# Output files
+csand-*.html
+csand-*.doc
+csand-*.xml
+csand-*_files
 
+# Deploy key
+deploy_key
