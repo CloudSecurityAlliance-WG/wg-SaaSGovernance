@@ -62,7 +62,7 @@ GEM
     image_size (2.0.0)
     iso-bib-item (0.4.2)
       isoics (~> 0.1.6)
-      nokogiri (~> 1.8.4)
+      nokogiri 
       ruby_deep_clone (~> 0.8.0)
     isobib (0.4.1)
       algoliasearch
@@ -148,7 +148,7 @@ GEM
       mime-types-data (~> 3.2015)
     mime-types-data (3.2018.0812)
     mini_portile2 (2.3.0)
-    nokogiri (1.8.5)
+    nokogiri 
       mini_portile2 (~> 2.3.0)
     optout (0.0.2)
     public_suffix (3.0.3)
